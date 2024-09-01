@@ -7,8 +7,8 @@ const TopMenu = () => {
   return (
     <div className="w-full h-full bg-[#212832] text-white/85">
       <Container>
-        <div className="flex justify-between items-center py-3">
-          <div className="flex justify-center items-center gap-3 font-bold text-[14px] tracking-tight">
+        <div className="grid grid-cols-1 lg:grid-cols-2 justify-between items-center py-3">
+          <div className="flex  flex-col lg:flex-row justify-center items-center lg:gap-3 font-bold text-[14px] tracking-tight">
             <h3>+880961-333-7448/+8801799-446655,01929-554499</h3>
             <Link to="info@peoplentech.com.bd">info@peoplentech.com.bd</Link>
           </div>

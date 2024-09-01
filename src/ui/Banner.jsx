@@ -15,7 +15,7 @@ const Banner = () => {
   return (
     <div className="bg-gray-200 z-10">
       <Container>
-        <div className="grid grid-cols-2 py-8 lg:mr-8">
+        <div className="grid grid-cols-1 lg:grid-cols-2 py-8 lg:mr-8">
           <div>
             <h3 className=" flex justify-center gap-1 text-lg text-sky-500 py-10">
               <span>

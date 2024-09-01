@@ -76,7 +76,7 @@ const Footer = () => {
     <div className="bg-black/90 text-white/80">
       <Container>
         <div className="py-24">
-          <div className="grid grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 md:gird-cols-2 lg:grid-cols-4 gap-10 lg:gap-6 items-start">
             <div className="flex flex-col gap-3 ">
               <img src={whLogo} alt="Logo" />
               <p>
