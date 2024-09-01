@@ -10,12 +10,15 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "colon-of-peoplentech": "file:",
     "framer-motion": "^11.3.19",
     "motion-ui": "^2.0.5",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-icons": "^5.2.1",
-    "react-router-dom": "^6.25.1"
+    "react-router-dom": "^6.25.1",
+    "react-slick": "^0.30.2",
+    "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
     "@types/react": "^18.3.3",

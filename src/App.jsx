@@ -1,5 +1,7 @@
 import "./App.css";
 import Banner from "./ui/Banner";
+import Career from "./ui/Career";
+
 import Container from "./ui/Container";
 
 function App() {
@@ -7,6 +9,7 @@ function App() {
     <div>
       <Container>
         <Banner />
+        <Career />
       </Container>
     </div>
   );

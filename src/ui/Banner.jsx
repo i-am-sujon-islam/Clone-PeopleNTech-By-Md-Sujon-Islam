@@ -1,8 +1,11 @@
 import React from "react";
+import { FaLongArrowAltRight, FaVideo } from "react-icons/fa";
 import { GrAchievement } from "react-icons/gr";
 import { IoBookOutline, IoPeopleSharp } from "react-icons/io5";
 import { LuCopyCheck } from "react-icons/lu";
 import { TfiCup } from "react-icons/tfi";
+import { Link } from "react-router-dom";
+import addImg from "../assets/adds.png";
 import avatar from "../assets/avatar.png";
 import bannerimg from "../assets/Hero-Side-Image.webp";
 import "../index.css";
@@ -10,7 +13,7 @@ import BannerServicsCard from "./BannerServicsCard";
 import Container from "./Container";
 const Banner = () => {
   return (
-    <div className="bg-gray-200">
+    <div className="bg-gray-200 z-10">
       <Container>
         <div className="grid grid-cols-2 py-8 lg:mr-8">
           <div>
@@ -50,6 +53,20 @@ const Banner = () => {
                 title="Successful students"
               />
             </div>
+            <div className="flex justify-around items-center ">
+              <button className="flex justify-center items-center text-2xl bg-sky-400 text-white px-4 py-2 rounded-2xl hover:bg-sky-600 transition-all duration-300">
+                <Link className="text-sm lg:text-xl">Our Courses </Link>
+                <span>
+                  <FaLongArrowAltRight />
+                </span>
+              </button>
+              <button className="flex justify-center items-center gap-1 border-2 border-solid border-sky-500 px-4 py-2 rounded-2xl text-2xl hover:text-sky-600 transition-all duration-300">
+                <span>
+                  <FaVideo />
+                </span>
+                <Link className="text-sm lg:text-xl"> Join Free Seminar</Link>
+              </button>
+            </div>
           </div>
           <div className="relative">
             <div>
@@ -66,6 +83,9 @@ const Banner = () => {
               <img src={avatar} alt="avatar" />
             </div>
           </div>
+        </div>
+        <div>
+          <img src={addImg} alt="Certification" />
         </div>
       </Container>
     </div>
